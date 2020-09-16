@@ -19,7 +19,7 @@ public class Looping {
 	      
 	      
 	     System.out.println("\n");
-	     //While Loop
+	     //While Loop & Break
 	      int y=10;
 	      
 	      do {
@@ -33,7 +33,7 @@ public class Looping {
 	      
 		System.out.println("\n");
 		//Experiments
-		//For loop
+		//For loop & Continue
 		for(int i=0;i<=20;i=i+1) {
 			if(i%3==0) {
 				System.out.println(i);
