@@ -16,7 +16,21 @@ public class Looping {
 	         System.out.print( name );
 	         System.out.print(",");
 	      }
-		
+	      
+	      
+	     System.out.println("\n");
+	     //While Loop
+	      int y=10;
+	      
+	      do {
+	    	  System.out.println("Value of y :" + y);
+	    	  if(y==11)
+	    		  break;
+	    	  y++;
+	      }while(y<15);
+	      
+	      
+	      
 		System.out.println("\n");
 		//Experiments
 		//For loop
@@ -30,13 +44,13 @@ public class Looping {
 		}
 		int x=505;
 		
-		
+		System.out.println("\n");
 		//While loop
 		while(x>500) {
 			System.out.println(x);
 			x=x-1;
 		}
-		
+		System.out.println("\n");
 		//for each
 		int [] years = {2010,2020,2030,2040};
 		
