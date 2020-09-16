@@ -10,7 +10,21 @@ public class Loop_control {
 	    String [] names = {"James", "Larry", "Tom", "Lacy"};
 
 	    for( String name : names ) {
-	       System.out.print( name );
+	       System.out.print( name +" ");
+	    }
+	    System.out.println();
+	    // do while code 
+	    
+	    int x=5;
+	    do {
+	    	System.out.println("Inside loop in do while");
+	    }while(x!=5);
+	    
+	    // while code 
+	    
+	    while(x==5) {
+	    	System.out.println("inside loop in while");
+	    	x++;
 	    }
 	}
 	
