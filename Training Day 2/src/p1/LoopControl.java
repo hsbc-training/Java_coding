@@ -2,20 +2,23 @@ package p1;
 
 public class LoopControl {
 
-   public static void main(String args[]) {
-      int x = 10;
+	public static void main(String args[]) {
+		int x = 10;
 
-     /* while( x < 20 ) {
-         System.out.print("value of x : " + x );
-         x++;
-         System.out.print("\n");
-      }
-      */
-      
-      do {
-          System.out.print("value of x : " + x );
-          x++;
-          System.out.print("\n");
-       }while( x < 20 );
-   }
+		/*
+		 * while( x < 20 ) { System.out.print("value of x : " + x ); x++;
+		 * System.out.print("\n"); }
+		 */
+
+		do {
+			System.out.print("value of x : " + x);
+			x++;
+			  if (x == 15) { continue; }
+			  
+			  if(x == 18) { break; }
+			 
+			
+			System.out.print("\n");
+		} while (x < 20);
+	}
 }

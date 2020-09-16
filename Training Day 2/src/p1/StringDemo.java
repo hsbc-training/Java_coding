@@ -20,5 +20,7 @@ public class StringDemo {
 	      //returns the object of the String class
 	      System.out.println("\n"+fs);
 	   }
+	 
+	 
 
 }
