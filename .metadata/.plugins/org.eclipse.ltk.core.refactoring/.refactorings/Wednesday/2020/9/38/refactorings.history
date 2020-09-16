@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;x&apos; in &apos;LOOPANDDECISION.main(...)&apos; to &apos;y&apos;&#x0D;&#x0A;- Original project: &apos;Wednesday&apos;&#x0D;&#x0A;- Original element: &apos;LOOPANDDECISION.main(String[]).x&apos;&#x0D;&#x0A;- Renamed element: &apos;x&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;x&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;{LOOPANDDECISION.java[LOOPANDDECISION~main~\[QString;@x!383!390!387!387!I!0!false" name="y" references="true" stamp="1600236001005" version="1.0"/>
+</session>

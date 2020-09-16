@@ -21,12 +21,12 @@ public class LOOPANDDECISION {
 			x++; 
 		}while(x<5);
 		
-		int y=0;
+		int y=100;
 		do{
-			y+=100;
-			if(y == 300)
-				continue;
 			System.out.println(y);
+			y+=100;
+			if(y == 400)
+				continue; 
 		}while(y<500);
 	}
 }
