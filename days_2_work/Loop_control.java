@@ -30,11 +30,23 @@ public class Loop_control {
 	    // check break statement 
 	    
 	   do {
-		   System.out.println(x+ " ");
+		   System.out.print(x + " ");
 		   if(x==10)
 			   break;
 		   x++;
 	   }while(x<15);
+	   System.out.println();
+	   // continue statement 
+	   
+	   while(x<20) {
+		  
+		   if(x==19) {
+			   x++;
+			   continue;
+			}
+		   System.out.print(x + " ");
+		   x++;
+	   }
 	   
 	    
 	}
