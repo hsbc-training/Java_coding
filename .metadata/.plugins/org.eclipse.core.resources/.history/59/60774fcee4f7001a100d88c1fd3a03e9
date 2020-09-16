@@ -30,7 +30,7 @@ public class RegularPattern {
 	public static void main(String args[]){
 		String n = "This order 77878 was placed for QT OK?";
 		String pattern = "(.*)(\\d+)(.*)";
-		String test = "(.*)(\\d)(.*)";
+		String test = "(.*)(\\d)(.m*)";
 		
 		Pattern r = Pattern.compile(pattern);
 		Pattern r1 = Pattern.compile(test);

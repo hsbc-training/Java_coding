@@ -28,7 +28,7 @@ public class RegularPattern {
                            + matches); 
     }*/
 	public static void main(String args[]){
-		String n = "This order 77878 was placed for QT OK?";
+		String n = "This order 77878 was placed for QT3000! OK?";
 		String pattern = "(.*)(\\d+)(.*)";
 		String test = "(.*)(\\d)(.*)";
 		

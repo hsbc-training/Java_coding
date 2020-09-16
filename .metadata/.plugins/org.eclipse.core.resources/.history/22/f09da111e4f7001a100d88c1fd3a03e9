@@ -28,9 +28,9 @@ public class RegularPattern {
                            + matches); 
     }*/
 	public static void main(String args[]){
-		String n = "This order 77878 was placed for QT OK?";
+		String n = "This order was placed for QT3000! OK?";
 		String pattern = "(.*)(\\d+)(.*)";
-		String test = "(.*)(\\d)(.*)";
+		String test = "wow";
 		
 		Pattern r = Pattern.compile(pattern);
 		Pattern r1 = Pattern.compile(test);
@@ -38,9 +38,9 @@ public class RegularPattern {
 		Matcher m1 = r1.matcher(n);
 		Matcher m = r.matcher(n);
 		
-		boolean matches  = m1.matches();
+		boolean matches  = m.matches();
 		
-		System.out.println( m1.group(3));
+		System.out.println(" n " + " test " + matches)	;
 		
 		if(m.find()){
 			System.out.println("Found value " + m.group(0));

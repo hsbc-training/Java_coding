@@ -1,0 +1,12 @@
+import java.io.*;
+
+
+public class FILEIO {
+	public static void main(String args[]) throws IOException{
+		FileInputStream i = null;
+		FileOutputStream o = null;
+		
+		i = new FileInputStream("input.txt"));
+	}
+
+}
