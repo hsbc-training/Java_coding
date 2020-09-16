@@ -12,7 +12,7 @@ public class LOOPANDDECISION {
 	
 	for(String s : str){
 		System.out.println(s);
-			
+		
 		}
 	}
 }

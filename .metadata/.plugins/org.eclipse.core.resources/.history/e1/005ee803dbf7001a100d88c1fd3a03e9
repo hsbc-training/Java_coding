@@ -8,7 +8,7 @@ public class DateProgram {
 		System.out.println(date.toString());
 		
 		Date form = new Date();
-		SimpleDateFormat sdf = new SimpleDateFormat("E MM.yyyy.dd 'at' HH:mm:SS a F D zzz");
+		SimpleDateFormat sdf = new SimpleDateFormat("E MM.yyyy.dd 'at' HH:mm:SS a zzz");
 		System.out.println("Current date " + sdf.format(form));
 	}
 }
