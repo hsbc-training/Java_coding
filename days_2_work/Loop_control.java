@@ -26,6 +26,17 @@ public class Loop_control {
 	    	System.out.println("inside loop in while");
 	    	x++;
 	    }
+	    
+	    // check break statement 
+	    
+	   do {
+		   System.out.println(x+ " ");
+		   if(x==10)
+			   break;
+		   x++;
+	   }while(x<15);
+	   
+	    
 	}
 	
 }
