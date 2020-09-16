@@ -1,0 +1,10 @@
+
+public class Stringfunctions {
+	String str = "Hong Kong and Shanghai";
+	String str1 = " Banking Corp";
+	
+	int l=str.length();
+	
+	
+	
+}
