@@ -10,7 +10,7 @@ public class LOOPANDDECISION {
 	
 	String str[] ={"Home","Lunch","Laptop"};
 	
-	for(String s : str)
+	for(String s : str){
 		System.out.println(s);
 		 
 		int x =1;
@@ -18,7 +18,9 @@ public class LOOPANDDECISION {
 			System.out.println(x);
 			if(x == 4)
 				break;
-			x++; 
+			x++;
 		}while(x<5);
+			
+		}
 	}
 }
