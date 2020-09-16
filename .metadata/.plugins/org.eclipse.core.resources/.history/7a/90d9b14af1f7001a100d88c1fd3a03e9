@@ -10,12 +10,10 @@ public class FILEIO {
 		o = new FileWriter("output.txt");
 		
 		int c;
+
+			o.write("New data added");
 		
-		while((c = i.read()) != -1){
-			o.write(c);
-		}
 		}finally{
-			o.write("\nNew stuff here");
 			if(i!=null){
 				i.close();
 			}

@@ -12,10 +12,9 @@ public class FILEIO {
 		int c;
 		
 		while((c = i.read()) != -1){
-			o.write(c);
+			o.write("New data added");
 		}
 		}finally{
-			o.write("\nNew stuff here");
 			if(i!=null){
 				i.close();
 			}

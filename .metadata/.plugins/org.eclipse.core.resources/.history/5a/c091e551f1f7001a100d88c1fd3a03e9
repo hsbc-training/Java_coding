@@ -15,7 +15,7 @@ public class FILEIO {
 			o.write(c);
 		}
 		}finally{
-			o.write("\nNew stuff here");
+			o.write("\n New stuff here");
 			if(i!=null){
 				i.close();
 			}
