@@ -14,8 +14,6 @@ public class Stringfunctions {
 	
 	System.out.println(str.indexOf('K'));
 	
-	System.out.println(str.substring(9));
-	
 	
 	
 	
