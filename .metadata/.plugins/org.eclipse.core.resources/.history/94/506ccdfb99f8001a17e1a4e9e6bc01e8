@@ -1,0 +1,9 @@
+
+public class RunEncap {
+	public static void main(String[] args) {
+		Encap test = new Encap();
+		test.setName("Vishnu");
+		test.setIdnum("EMP1");
+		test.setAge(22);
+	}
+}

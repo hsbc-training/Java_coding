@@ -1,0 +1,7 @@
+
+public abstract class house {
+	abstract void add();
+	void sub(){
+		System.out.println("working");
+	}
+}

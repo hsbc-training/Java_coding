@@ -1,0 +1,16 @@
+
+public class mammal implements Animal{
+
+	@Override
+	public void eat() {
+		// TODO Auto-generated method stub
+		System.out.println("Eat");
+	}
+
+	@Override
+	public void travel() {
+		// TODO Auto-generated method stub
+		System.out.println("travels");
+	}
+
+}

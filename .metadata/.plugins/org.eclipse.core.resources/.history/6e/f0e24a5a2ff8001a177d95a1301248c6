@@ -1,0 +1,36 @@
+import java.io.*;
+
+
+public class FILEIO {
+	public static void main(String args[]) throws IOException{
+		FileReader i = null;
+		FileWriter o = null;
+		try{
+		i = new FileReader("input.txt");
+		o = new FileWriter("output.txt");
+		
+		int c1,c;
+		int l=0;
+		while((c1 = i.read()) != -1){
+			System.out.println((char)c);
+			l++;
+		}
+		char[] rev = new char[l];
+		char[] rev1 = new char[l];
+		
+		/*for(int k=0;k<l;k++)
+			rev1[k]=rev[--l];*/
+	
+		System.out.println(rev);	
+		
+		}finally{
+			if(i!=null){
+				i.close();
+			}
+			if(o!=null){
+				o.close();
+			}
+		}
+	}
+
+}
