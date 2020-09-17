@@ -1,0 +1,27 @@
+package com.hsbc.demo;
+import java.util.ArrayList;
+import java.util.List;
+
+
+public class HSBCCompany {
+	List<Employee> employees = createEmployeeList();
+	
+	List<Employee> createEmployeeList(){
+		List<Employee> list = new ArrayList<>();
+		
+		for(int i=0 ; i<10 ; i++){
+			Contractor contractor = new Contractor();
+			list.add(contractor);
+			}
+		for(int i=0 ; i<20 ; i++){
+			HSBCStaff hsbcStaff = new HSBCStaff();
+			list.add(hsbcStaff);
+			}
+		return list;
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
