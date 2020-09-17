@@ -1,0 +1,9 @@
+package com.hsbc;
+
+import com.hsbc.model.order;
+
+public class Amazon {
+	public static void main(String[] args) {
+	order o = new order();
+	}
+}

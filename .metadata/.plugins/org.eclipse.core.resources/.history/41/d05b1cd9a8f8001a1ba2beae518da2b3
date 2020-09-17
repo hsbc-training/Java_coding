@@ -1,0 +1,15 @@
+package com.hsbc.model;
+
+public class order {
+	private Address address; //immutable
+	private float price;
+	public order(Address address){
+		this.address = address;
+	}
+	public Address getAddress() {
+		return address;
+	}
+	public float getPrice() {
+		return price;
+	}
+}
