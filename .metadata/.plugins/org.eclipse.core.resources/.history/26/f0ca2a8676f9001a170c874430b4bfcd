@@ -1,0 +1,79 @@
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
+
+public class LinkedListExample {
+	public static void main(String[] args) {
+		LinkedList<String> ll = new LinkedList<String>();
+		
+		ll.add("Vishnu");
+		ll.add("Gopal");
+		ll.add("Thobbi");
+		
+		System.out.println(ll);
+		
+		ll.add(3, "Fresher");
+		
+		System.out.println(ll);
+		
+		ll.addFirst("Employee");
+		
+		System.out.println(ll);
+		
+		ll.removeFirst();
+		ll.removeLast();
+		
+		System.out.println(ll);
+		
+		ll.add("Dummy");
+		ll.add("Dummy1");
+		ll.remove(3);
+		
+		System.out.println(ll);
+		
+		ll.remove("Dummy1");
+		
+		System.out.println(ll);
+		
+		ll.removeAll(ll);
+		
+		System.out.println(ll);
+		
+		List<String> i = new ArrayList<>();
+		
+		i.add("1");
+		i.add("2");
+		i.add("3");
+		
+		ll.addAll(i);
+		
+		System.out.println(ll);
+		
+		System.out.println(ll.getFirst());
+		System.out.println(ll.getLast());
+		System.out.println(ll.get(1));
+		
+		boolean result = ll.contains("1");
+		
+		System.out.println(result);
+		
+		ll.add("4");
+		ll.add("5");
+		ll.add("6");
+		ll.add("7");
+		
+		List ll1 = ll.subList(2, 5);
+		
+		System.out.println(ll1);
+		
+		for (Iterator iterator = ll.iterator(); iterator.hasNext();) {
+			Object object = (Object) iterator.next();
+			
+			while(iterator.hasNext()){
+				System.out.println(iterator.next());
+			}
+		}
+	}
+}
