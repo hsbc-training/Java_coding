@@ -5,8 +5,7 @@ public class HashSetExample {
 		HashSet<Integer> hash = new HashSet<>();
 		
 		hash.add(1);
-		Object hash2 = new HashSet<>();
-		hash2 = hash.clone();
+		HashSet<Integer> hash2 = (HashSet<Integer>) hash.clone();
 		
 		System.out.println(hash2);
 	}
