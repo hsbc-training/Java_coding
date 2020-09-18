@@ -81,7 +81,7 @@ public class HashSetDemo {
 		System.out.println("What is the size of fruitSet ? "+fruitSet.size()+"\n");
 		System.out.println("Do you have an orange ? "+fruitSet.contains("Orange")+"\n");
 		
-		//LinkedHashSet
+		//LinkedHashSet stores the elements 
 		LinkedHashSet<String> linkedFruitSet = new LinkedHashSet<String>();
 		linkedFruitSet.add("Orange");
 		linkedFruitSet.add("Papaya");

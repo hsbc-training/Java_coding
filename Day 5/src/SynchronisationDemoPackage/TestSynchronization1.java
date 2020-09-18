@@ -1,5 +1,11 @@
 package SynchronisationDemoPackage;
-
+/*
+ * @Author Pratham Sharma
+ * 
+ * Package created to demo synchronization of threads
+ * 
+ * Class created to implement synchronization
+ */
 class Table {
 	// when two threads are calling the same method and share the same object synchronized keyword is required
 	synchronized void printTable(int n) {		
