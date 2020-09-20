@@ -1,0 +1,7 @@
+package EnumPractice;
+
+public class Booking {
+	public static void main(String[] args) {
+		Car c = new Car(COLOR.BLACK, 1000);
+	}
+}

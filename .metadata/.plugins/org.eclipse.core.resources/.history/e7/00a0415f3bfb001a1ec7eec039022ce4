@@ -1,0 +1,7 @@
+package com.hsbc.LabExercise37;
+
+public class Dog extends Animal{
+	public static void main(String[] args) {
+		
+	}
+}

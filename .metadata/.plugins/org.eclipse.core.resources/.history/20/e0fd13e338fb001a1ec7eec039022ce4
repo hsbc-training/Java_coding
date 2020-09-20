@@ -1,0 +1,10 @@
+package com.hsbc.LabExercise34;
+
+public class Truck extends Vehicle{
+	public Truck(){
+		super();
+	}
+	void display(){
+		System.out.println("In Truck subclass");
+	}
+}

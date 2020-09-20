@@ -1,0 +1,9 @@
+package EnumPractice;
+
+enum COLOR{
+	RED,BLACK;
+}
+
+public class Car {
+	private COLOR color;
+}	

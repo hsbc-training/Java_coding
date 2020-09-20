@@ -1,0 +1,10 @@
+package practice;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class SalaryCalculate {
+	public static void main(String[] args) {
+		List<Worker> list = new ArrayList<>();
+ 	}
+}

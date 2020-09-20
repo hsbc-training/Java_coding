@@ -1,4 +1,4 @@
-package org.animals;
+/*package org.animals;
 
 
 public class Lion {
@@ -19,3 +19,4 @@ public class Lion {
 		this.age = age;
 	}
 }
+*/

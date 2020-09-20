@@ -1,0 +1,16 @@
+package practice;
+
+public class DailyWorker {
+	private int noOfDays;
+	
+	public DailyWorker(int noOfDays) {
+		super();
+		this.noOfDays = noOfDays;
+	}
+	
+	double pay(int hours){
+		return hours * noOfDays ; 
+	}
+
+	
+}
