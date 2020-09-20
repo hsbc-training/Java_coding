@@ -1,0 +1,74 @@
+package com.hsbc.LabExercise42;
+
+import java.util.List;
+
+public class Registration extends Courses{
+	
+
+	public Registration() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	private String courseName;
+	private String empName;
+	private char courseMethod;
+	private char courseType;
+	
+	public Registration(String courseName, String empName, char courseMethod, char courseType) {
+		super();
+		this.courseName = courseName;
+		this.empName = empName;
+		this.courseMethod = courseMethod;
+		this.courseType = courseType;
+	}
+	
+	@Override
+	void registration() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	void deregistration() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
+
+	public String getCourseName() {
+		return courseName;
+	}
+
+	public void setCourseName(String courseName) {
+		this.courseName = courseName;
+	}
+
+	public String getEmpName() {
+		return empName;
+	}
+
+	public void setEmpName(String empName) {
+		this.empName = empName;
+	}
+
+	public char getCourseMethod() {
+		return courseMethod;
+	}
+
+	public void setCourseMethod(char courseMethod) {
+		this.courseMethod = courseMethod;
+	}
+
+	public char getCourseType() {
+		return courseType;
+	}
+
+	public void setCourseType(char courseType) {
+		this.courseType = courseType;
+	}
+
+	
+
+}

@@ -1,0 +1,7 @@
+package com.hsbc.LabExercise41;
+
+public abstract class Shape3D {
+	abstract float volume();
+	abstract float surfaceArea();
+
+}

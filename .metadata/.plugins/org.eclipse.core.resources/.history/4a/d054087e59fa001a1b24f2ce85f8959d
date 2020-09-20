@@ -1,0 +1,13 @@
+package com.hsbc.LabExercise42;
+
+public class Registration extends Courses{
+
+	@Override
+	void register() {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+
+}

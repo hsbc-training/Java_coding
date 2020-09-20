@@ -1,0 +1,6 @@
+
+public abstract class Worker {
+		abstract int pay(int hours);
+
+	
+}

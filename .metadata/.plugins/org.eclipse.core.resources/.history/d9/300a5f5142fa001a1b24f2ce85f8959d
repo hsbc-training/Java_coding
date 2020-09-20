@@ -1,0 +1,12 @@
+
+public class SalariedWorker extends Worker{
+
+	public SalariedWorker(String name, int salary) {
+		super(name, salary);
+		// TODO Auto-generated constructor stub
+	}
+	
+	int pay(int hours){
+		return salary*hours;
+	}
+}

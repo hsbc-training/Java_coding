@@ -1,0 +1,10 @@
+package org.animals;
+
+public class Elephant {
+	private String color;
+	private int age;
+	
+	void isVegetarian(){
+		System.out.println("Elephant is vegetarian");
+	}
+}

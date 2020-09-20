@@ -1,0 +1,20 @@
+package com.hsbc.LabExercise41;
+
+public class Cylinder extends Shape3D{
+	private float radius;
+	private float height;
+	
+	@Override
+	double volume() {
+		double volume = 0;
+		volume = 0.5 * height * radius * radius;
+		return volume;
+	}
+
+	@Override
+	float surfaceArea() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
+}

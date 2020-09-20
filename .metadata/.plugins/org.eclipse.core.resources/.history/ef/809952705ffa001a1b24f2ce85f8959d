@@ -1,0 +1,24 @@
+package com.hsbc.LabExercise42;
+
+import java.awt.List;
+
+public class Registration extends Courses{
+
+	public Registration(String courseName, String empName, char courseType, char courseMethod) {
+		super(courseName, empName, courseType, courseMethod);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	static void register(List<Courses> list,Class c) {
+		// TODO Auto-generated method stub
+		list.add(c);
+	}
+
+	@Override
+	void deregister() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

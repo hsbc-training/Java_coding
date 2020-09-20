@@ -1,0 +1,8 @@
+
+public class SalariedWorker extends Worker{
+
+		
+	int pay(int hours){
+		return 7*hours;
+	}
+}

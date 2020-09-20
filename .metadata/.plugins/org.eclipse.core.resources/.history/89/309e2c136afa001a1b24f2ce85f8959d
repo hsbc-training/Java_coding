@@ -1,0 +1,22 @@
+package com.hsbc.LabExercise42;
+
+import java.util.List;
+import java.util.Scanner;
+
+public class Registration extends Courses{
+	private String courseName;
+	@Override
+	void register(List<Courses> list) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc = new Scanner(System.in);
+		String courseName = sc.next();
+		Registration r = new Registration(courseName);
+		list.add(r);
+	}
+	public Registration(){}
+	public Registration(String courseName) {
+		super();
+		this.courseName = courseName;
+	}
+}

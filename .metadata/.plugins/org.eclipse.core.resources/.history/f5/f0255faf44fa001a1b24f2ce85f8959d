@@ -1,0 +1,41 @@
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
+public class Company {
+		
+		List<Worker> worker = new ArrayList<>();
+		
+		void WorkerList(){
+			
+			for(int i=0;i<3;i++){
+				SalariedWorker s = new SalariedWorker();
+				worker.add(s);
+			}
+			
+			for(int i=0;i<5;i++){
+				DailyWorker d = new DailyWorker();
+				worker.add(d);
+			}
+		}
+		
+		int salaryCalcuate(){
+			float totalSalary = 0;
+			for (Iterator iterator = worker.iterator(); iterator.hasNext();) {
+				Worker worker2 = (Worker) iterator.next();
+				totalSalary+=worker2.pay(6);
+			}
+			return (int) totalSalary;
+		}
+		
+		public static void main(String[] args) {
+			Company c = new Company();
+			
+			c.WorkerList();
+			
+			float totalSalary = c.salaryCalcuate();
+			
+			System.out.println(totalSalary);
+		}
+
+}

@@ -3,6 +3,23 @@
 <fullyQualifiedTypeName name="javax.swing.SortingFocusTraversalPolicy"/>
 <fullyQualifiedTypeName name="com.hsbc.model.order"/>
 <fullyQualifiedTypeName name="com.hsbc.model.Address"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.lang.Thread"/>
+<fullyQualifiedTypeName name="javax.net.ssl.ExtendedSSLSession"/>
+<fullyQualifiedTypeName name="Thread1"/>
+<fullyQualifiedTypeName name="HashMapExample"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="java.util.Iterator"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.Map.Entry"/>
+<fullyQualifiedTypeName name="SalariedWorker"/>
+<fullyQualifiedTypeName name="DailyWorker"/>
+<fullyQualifiedTypeName name="Company"/>
+<fullyQualifiedTypeName name="Worker"/>
+<fullyQualifiedTypeName name="com.hsbc.LabExercise42.Courses"/>
+<fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.hsbc.LabExercise42.Registration"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>

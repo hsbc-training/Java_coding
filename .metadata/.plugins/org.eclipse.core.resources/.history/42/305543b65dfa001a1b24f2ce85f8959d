@@ -1,0 +1,10 @@
+package com.hsbc.LabExercise42;
+
+abstract class Courses {
+	private String courseName;
+	private String empName;
+	private char courseType;
+	private char courseMethod;
+	abstract void register();
+	abstract void deregister();
+}

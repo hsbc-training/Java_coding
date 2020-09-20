@@ -1,0 +1,7 @@
+package com.hsbc.LabExercise42;
+
+public abstract class Courses {
+	abstract void registration();
+	abstract void deregistration();
+	void courseList(){}	
+}

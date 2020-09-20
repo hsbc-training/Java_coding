@@ -1,0 +1,20 @@
+package com.hsbc.LabExercise42;
+
+abstract class Courses {
+	private String courseName;
+	private String empName;
+	private char courseType;
+	private char courseMethod;
+	
+	public Courses(String courseName, String empName, char courseType, char courseMethod) {
+		super();
+		this.courseName = courseName;
+		this.empName = empName;
+		this.courseType = courseType;
+		this.courseMethod = courseMethod;
+	}
+	
+	abstract void register(List<Courses> list , Class c);
+	abstract void deregister();
+	
+}

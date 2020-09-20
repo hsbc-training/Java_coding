@@ -1,0 +1,15 @@
+package com.hsbc.LabExercise42;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class CoursePortal {
+	public static void main(String[] args) {
+		
+		List<Courses> list = new ArrayList<>();
+		
+		Registration r = new Registration("AWS","Vishnu",'F','O');
+		
+		Registration.register(list,r);
+	}
+}
