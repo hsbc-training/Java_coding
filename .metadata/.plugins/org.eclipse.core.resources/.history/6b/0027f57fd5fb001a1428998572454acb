@@ -1,0 +1,13 @@
+package com.hsbc.userdefinedexceptions;
+
+public class Excep extends Exception {
+	String str1;
+
+	Excep(String str2){
+		str1=str2;
+	}
+	
+	public String toString(){
+		return ("Exception occurred " + str1);
+	}
+}

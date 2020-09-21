@@ -1,0 +1,7 @@
+package com.hsbc.userdefinedexceptions;
+
+class InappropriateInputException extends Exception {
+	public InappropriateInputException(String s) {
+		super(s);
+	}
+}
