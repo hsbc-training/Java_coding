@@ -1,0 +1,25 @@
+package com.hsbc.userdefinedexceptions;
+
+class eg extends Exception{
+	eg(String s){
+		super(s);
+	}
+	
+	public eg() {
+		// TODO Auto-generated constructor stub
+	}
+
+	void display(int num) throws eg{
+		if(num == 0){
+			throw new eg("Exception Caught!! ");
+		}
+	}
+}
+
+
+public class Trial {
+	public static void main(String[] args) {
+		eg e = new eg();
+		e.display(0);
+	}
+}

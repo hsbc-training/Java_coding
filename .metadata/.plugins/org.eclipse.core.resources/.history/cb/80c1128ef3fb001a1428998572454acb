@@ -19,7 +19,7 @@ public class Excep2 {
 			e.getInput(-20);
 		} catch (InappropriateInputException e2) {
 			// TODO: handle exception
-			System.out.println("Invalid Input Exception Handled \n" + e2);
+			System.out.println("Invalid Input Exception Handled " + e2);
 		}
 	}
 }
