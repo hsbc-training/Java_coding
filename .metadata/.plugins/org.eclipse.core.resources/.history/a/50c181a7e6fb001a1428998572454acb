@@ -1,0 +1,26 @@
+package com.hsbc.userdefinedexceptions;
+
+import java.io.FileInputStream;
+import java.io.*;
+
+public class Example extends Exception {
+	public static void main(String[] args) {
+		FileInputStream i =null;
+		try{
+		 i = new FileInputStream("input.txt");
+		}
+		catch(IOException i){
+			System.out.println("Exception " + i);
+		}
+		int k;
+		try{
+			while((k = i.read()) != -1){
+				System.out.println((char)k);
+			}
+		}
+		catch(IOException e){
+			System.out.println();
+		}
+		
+	}
+}

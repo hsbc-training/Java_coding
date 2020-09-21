@@ -1,0 +1,9 @@
+package com.hsbc.userdefinedexceptions;
+
+import java.io.FileInputStream;
+
+public class Example {
+	public static void main(String[] args) {
+		FileInputStream i = new FileInputStream("input.txt");
+	}
+}
