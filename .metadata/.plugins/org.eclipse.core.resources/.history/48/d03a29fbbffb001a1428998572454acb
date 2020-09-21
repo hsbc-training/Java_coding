@@ -1,0 +1,13 @@
+
+public class MAIN {
+	public static void main(String[] args) {
+		PolymorphismExample s = new PolymorphismExample();
+		s.display();
+		PolymorphismExample.display1();
+		
+		SubClass c = new SubClass();
+		SubClass.display1();
+		c.add(5);
+		c.add(5, 10);
+	}
+}	
