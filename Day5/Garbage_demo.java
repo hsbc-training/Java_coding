@@ -1,18 +1,18 @@
-public class Garbage_dmeo{   
+public class Garbage_demo{   
    public static void main(String args[]){  
         /* Here we are intentionally assigning a null 
          * value to a reference so that the object becomes
          * non reachable
          */
-	Garbage_dmeo obj=new Garbage_dmeo();  
+	Garbage_demo obj=new Garbage_demo();  
 	obj=null;  
 		
         /* Here we are intentionally assigning reference a 
          * to the another reference b to make the object referenced
          * by b unusable.
          */
-	Garbage_dmeo a = new Garbage_dmeo();
-	Garbage_dmeo b = new Garbage_dmeo();
+	Garbage_demo a = new Garbage_demo();
+	Garbage_demo b = new Garbage_demo();
 	b = a;
 	System.gc();  
    }  
