@@ -1,0 +1,1 @@
+This to test copy file if A is written or not.
