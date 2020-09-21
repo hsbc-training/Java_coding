@@ -1,0 +1,16 @@
+package EnumPractice;
+
+enum COLOR{
+	RED,BLACK;
+}
+
+public class Car {
+	private COLOR color;
+	private int price;
+
+	public Car(COLOR color,int price) {
+		super();
+		this.color = color;
+		this.price=price;
+	}
+}	

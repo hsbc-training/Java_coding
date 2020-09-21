@@ -1,0 +1,42 @@
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.List;
+
+public class ArrayListExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		List<String> list = new ArrayList<String>();
+		
+		list.add("Vishnu");
+		list.add("Gopal");
+		list.add("Thobbi");
+		
+		System.out.println(list);
+		
+		System.out.println("List after inserting more elements in oarticular position : ");
+		
+		list.add(0, "HSBC");
+		list.add(1, "Bank");
+		list.add(2, "employee");
+		
+		System.out.println(list);
+		
+		list.set(2, "Developer");
+		list.add(3,"Dummy");
+		
+		System.out.println(list);
+		
+		list.remove(3);
+		
+		System.out.println(list);
+		
+		System.out.println(list.size());
+		Collections.sort(list);
+		System.out.println(list);	
+		
+	}
+
+}

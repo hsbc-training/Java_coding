@@ -1,0 +1,14 @@
+class Primitives {
+  static void printFloat(float f) {System.out.println(f);}
+  static void printDouble(double d) {System.out.println(d);}
+  public static void main(String[] args) {
+    byte b = 1;     // 1
+    short s = b;    // 2
+    char c = s;     // 3
+    int i = c;      // 4
+    long l = i;     // 5
+    float f = l;    // 6
+    printFloat(i);  // 7
+    printFloat(l);  // 8
+    printDouble(l); // 9
+}

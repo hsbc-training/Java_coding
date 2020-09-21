@@ -1,0 +1,17 @@
+package com.hsbc.serialization;
+
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.ObjectOutputStream;
+
+public class SendClass {
+	Student s = new Student(101, 25, "Vishnu", "Pune", 170);
+	try{
+		FileOutputStream fos = new FileOutputStream("Student.ser");
+		ObjectOutputStream oos = new ObjectOutputStream(fos);
+		
+		oos.writeObject(s);
+		oos.close();
+		fos.close();
+	}
+}

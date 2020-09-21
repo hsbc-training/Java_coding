@@ -1,0 +1,18 @@
+package com.hsbc.userdefinedexceptions;
+
+class eg extends Exception{
+	eg(String s){
+		super(s);
+	}
+	
+	void display(int num) throws eg{
+		if(num == 0){
+			throw new eg("Exception Caught!! ");
+		}
+	}
+}
+
+
+public class Trial {
+	eg e = new eg();
+}

@@ -1,0 +1,5 @@
+package com.hsbc.LabExercise42;
+
+public class Registration extends Courses{
+
+}

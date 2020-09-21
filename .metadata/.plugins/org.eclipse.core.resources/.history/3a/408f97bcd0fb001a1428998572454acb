@@ -1,0 +1,7 @@
+package com.hsbc.userdefinedexceptions;
+
+class InvalidRegistration extends Exception{
+	public InvalidRegistration(String s){
+		super(s);
+	}
+}

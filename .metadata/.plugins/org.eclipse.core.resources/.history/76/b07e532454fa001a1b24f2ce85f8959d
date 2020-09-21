@@ -1,0 +1,23 @@
+package com.hsbc.LabExercise41;
+
+public class Cube extends Shape3D{
+	private float length = 0;
+	@Override
+	double volume() {
+		// TODO Auto-generated method stub
+		double volume = Math.pow(3, length);
+		return volume;
+	}
+
+	@Override
+	double surfaceArea() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	public Cube(float length) {
+		super();
+		this.length = length;
+	}
+	
+}

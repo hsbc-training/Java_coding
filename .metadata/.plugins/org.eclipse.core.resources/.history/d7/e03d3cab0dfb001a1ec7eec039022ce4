@@ -1,0 +1,16 @@
+package org.animals;
+enum COLOR{
+	GREY,BLACK;
+	}
+public class Elephant {
+	private String color;
+	private int age;
+	
+	void isVegetarian(){
+		System.out.println("Elephant is vegetarian");
+	}
+	
+	void canClimb(){
+		System.out.println("Elephants cant climb");
+	}
+}

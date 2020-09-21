@@ -1,0 +1,13 @@
+package com.hsbc.LabExercise34;
+
+public class Truck extends Vehicle{
+	public Truck(int noOfWheels, String color) {
+		super(noOfWheels, color);
+		// TODO Auto-generated constructor stub
+	}
+
+	void display(){
+		System.out.println("In Truck subclass");
+		super.display();
+	}
+}

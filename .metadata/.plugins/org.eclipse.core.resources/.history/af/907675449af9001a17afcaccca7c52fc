@@ -1,0 +1,6 @@
+class test{
+	void calc(int n){
+
+		System.out.println(n*(int)(Math.random()*1000));
+	}
+}

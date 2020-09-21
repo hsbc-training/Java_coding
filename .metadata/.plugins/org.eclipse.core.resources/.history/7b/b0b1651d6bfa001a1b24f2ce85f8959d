@@ -1,0 +1,46 @@
+package com.hsbc.LabExercise42;
+
+import java.util.List;
+import java.util.Scanner;
+
+public class Registration extends Courses {
+	private String courseName;
+	private String empName;
+	private char courseMethod;
+	private char courseType;
+
+	@Override
+	void register(List<Courses> list) {
+		// TODO Auto-generated method stub
+
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter course name : ");
+		String courseName = sc.next();
+		System.out.println("Enter Employee name : ");
+		String empName = sc.next();
+		System.out.println("Enter courseMethod name : ");
+		char courseMethod = sc.next().charAt(0);
+		System.out.println("Enter courseType name : ");
+		char courseType = sc.next().charAt(0);
+		;
+		Registration r = new Registration(courseName,courseMethod,courseType,empName);
+		list.add(r);
+	}
+
+	public Registration() {
+	}
+
+	public Registration(String courseName, char courseMethod, char courseType, String empName) {
+		super();
+		this.courseName = courseName;
+		this.courseMethod = courseMethod;
+		this.courseType = courseType;
+		this.empName = empName;
+	}
+
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return this.courseName + this.empName + this.courseMethod + this.courseType;
+	}
+}

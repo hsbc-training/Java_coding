@@ -1,0 +1,16 @@
+
+public class DailyWorker extends Worker{
+	public DailyWorker(String name) {
+		super(name);
+		// TODO Auto-generated constructor stub
+	}
+
+	int pay(int hours){
+		return (hours * 7);
+	}
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return this.name;
+	}
+}	

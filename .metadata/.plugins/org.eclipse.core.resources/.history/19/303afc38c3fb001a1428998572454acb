@@ -1,0 +1,7 @@
+package com.hsbc.difference;
+
+public abstract class Ex2 {
+	void disp(){
+		System.out.println("In Ex2");
+	}
+}

@@ -1,0 +1,10 @@
+
+public class Threadsdemo {
+	public static void main(String[] args) {
+		System.out.println("In Threads Demo");
+		Thread t1 = new Thread("Thread");
+		t1.run();
+	}
+
+	
+}

@@ -1,0 +1,11 @@
+
+public class DailyWorker extends Worker{
+	public DailyWorker(String name, int salary) {
+		super(name, salary);
+		// TODO Auto-generated constructor stub
+	}
+
+	void pay(int hours){
+		return (hours * 7);
+	}
+}	

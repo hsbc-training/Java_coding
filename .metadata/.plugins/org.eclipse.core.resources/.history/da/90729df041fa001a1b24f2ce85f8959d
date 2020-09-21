@@ -1,0 +1,12 @@
+
+public abstract class Worker {
+	private String name;
+	private int salary;
+	public Worker(String name, int salary) {
+		super();
+		this.name = name;
+		this.salary = salary;
+	}
+	
+	abstract void pay(int hours);
+}

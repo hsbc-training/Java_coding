@@ -1,0 +1,25 @@
+package practice;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
+public class SalaryCalculate {
+	public static void main(String[] args) {
+		List<Worker> list = new ArrayList<>();
+		
+		list.add(new DailyWorker("Vishnu", 2000, 4));
+		list.add(new DailyWorker("Divya", 2000, 3));
+		
+		list.add(new SalariedWorker("Gopal" , 100000));
+		
+		void salaryCalculate(){
+			double totalSalary = 0;
+			for (Iterator iterator = list.iterator(); iterator.hasNext();) {
+				Worker worker = (Worker) iterator.next();
+				
+			}
+		}
+		
+ 	}
+}

@@ -1,0 +1,7 @@
+package com.hsbc.LabExercise34;
+
+public class Vehicle {
+	void display(){
+		System.out.println("In super class");
+	}
+}

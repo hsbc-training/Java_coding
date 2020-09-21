@@ -1,0 +1,40 @@
+import java.util.LinkedList;
+
+public class LinkedListExample {
+	public static void main(String[] args) {
+		LinkedList<String> ll = new LinkedList<String>();
+		
+		ll.add("Vishnu");
+		ll.add("Gopal");
+		ll.add("Thobbi");
+		
+		System.out.println(ll);
+		
+		ll.add(3, "Fresher");
+		
+		System.out.println(ll);
+		
+		ll.addFirst("Employee");
+		
+		System.out.println(ll);
+		
+		ll.removeFirst();
+		ll.removeLast();
+		
+		System.out.println(ll);
+		
+		ll.add("Dummy");
+		ll.add("Dummy1");
+		ll.remove(3);
+		
+		System.out.println(ll);
+		
+		ll.remove("Dummy1");
+		
+		System.out.println(ll);
+		
+		ll.removeAll(ll);
+		
+		
+	}
+}

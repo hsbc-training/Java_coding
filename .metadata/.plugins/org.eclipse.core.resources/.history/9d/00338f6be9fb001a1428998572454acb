@@ -1,0 +1,9 @@
+package com.hsbc.userdefinedexceptions;
+
+public class Arrays {
+	public static void main(String[] args) throws RuntimeException{
+		int[] num = {1,2,3,4,5};
+		
+		num[5]=6;
+	}
+}

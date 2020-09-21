@@ -1,0 +1,10 @@
+
+public class Threadsdemo {
+	public static void main(String[] args) {
+		System.out.println("111");
+		Thread t1 = new Thread("Thread"+Thread.currentThread());
+		t1.run();
+	}
+
+	
+}

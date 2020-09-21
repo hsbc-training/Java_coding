@@ -1,0 +1,15 @@
+package com.hsbc.LabExercise41;
+
+public abstract class Shape3D {
+	abstract double volume();
+	abstract double surfaceArea();
+	
+	public static void main(String[] args) {
+		Cylinder c = new Cylinder(10,5);
+		
+		double surfaceArea = c.surfaceArea();
+		double volume = c.volume();
+		
+	}
+
+}

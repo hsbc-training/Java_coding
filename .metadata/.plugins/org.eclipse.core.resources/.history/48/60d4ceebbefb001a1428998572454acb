@@ -1,0 +1,8 @@
+
+public class MAIN {
+	public static void main(String[] args) {
+		PolymorphismExample s = new SubClass();
+		s.display();
+		
+	}
+}	

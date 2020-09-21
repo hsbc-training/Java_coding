@@ -1,0 +1,8 @@
+
+public class PolymorphismExample {
+	public static void display(){
+		System.out.println("This is parent class");
+	}
+}	
+
+

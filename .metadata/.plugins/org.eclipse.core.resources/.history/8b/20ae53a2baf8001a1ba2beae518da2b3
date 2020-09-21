@@ -1,0 +1,8 @@
+
+public class Magenta {
+
+		  static byte a = (byte)127, b = (byte)128, c = (byte)255, d = (byte)256;
+		  public static void main(String args[]) {
+		    System.out.print(a + " " + b + " " + c + " " + d);
+		}
+}

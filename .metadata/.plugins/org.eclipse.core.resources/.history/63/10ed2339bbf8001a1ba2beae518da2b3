@@ -1,0 +1,6 @@
+class Sienna {
+  static double a; static float b; static int c; static char d;
+  public static void main(String[] args) {
+    a = b = c = d = 'a';
+    System.out.println(a+b+c+d == 4 * 'a');
+}}

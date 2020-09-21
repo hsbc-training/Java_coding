@@ -1,0 +1,22 @@
+package com.hsbc.LabExercise42;
+
+public abstract class Courses {
+	private String courseName;
+	private float courseFee;
+	private char courseMethod;
+	private char courseType;
+	
+	public Courses(String courseName, float courseFee, char courseMethod, char courseType) {
+		super();
+		this.courseName = courseName;
+		this.courseFee = courseFee;
+		this.courseMethod = courseMethod;
+		this.courseType = courseType;
+	}
+	
+	abstract void registration();
+	abstract void deregistration();
+	void courseList(){}
+	
+	
+}
